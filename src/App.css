@@ -16,7 +16,9 @@
    width:40%;
    
 }
- 
+ h1,h2,h4,h6,h3,p{
+   padding: 5px;
+ }
 #inp{
     width: 70%;
     outline: none;

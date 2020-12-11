@@ -36,12 +36,12 @@ const AddCar = () => {
             data.append('price', carInfo.price)
             data.append('file', carInfo.file)
             
-            fetch('http://localhost:5000/addCar', {
+            fetch('https://guarded-caverns-49792.herokuapp.com/addCar', {
                 method: "POST",
                 body: data
 
             }).then(res => {
-                fetch(`http://localhost:5000/getCar/${carInfo.modelName}`)
+                fetch(`https://guarded-caverns-49792.herokuapp.com/getCar/${carInfo.modelName}`)
                      .then(response => response.json())
                      .then(Data => {
                          history.push({

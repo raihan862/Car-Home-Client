@@ -13,7 +13,7 @@ const AllCars = () => {
     const [activePage,setActivePage] = useState(1)
 
     useEffect(() => {
-        fetch('http://localhost:5000/getCars')
+        fetch('https://guarded-caverns-49792.herokuapp.com/getCars')
             .then(response => response.json())
             .then(Data => {
                 

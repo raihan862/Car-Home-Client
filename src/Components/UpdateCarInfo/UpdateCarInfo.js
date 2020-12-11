@@ -47,13 +47,13 @@ const UpdateCarInfo = () => {
         data.append('file', carInfo.file)
         
        
-            fetch(`http://localhost:5000/updateCar/${Info._id}`, {
+            fetch(`https://guarded-caverns-49792.herokuapp.com/updateCar/${Info._id}`, {
                 method: "PUT",
                 body:data
 
             }).then(res => {
                
-                fetch(`http://localhost:5000/getCar/${Info.modelName}`)
+                fetch(`https://guarded-caverns-49792.herokuapp.com/getCar/${Info.modelName}`)
                 .then(response => response.json())
                 .then(Data => {
                     history.push({
