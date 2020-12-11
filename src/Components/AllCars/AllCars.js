@@ -22,7 +22,7 @@ const AllCars = () => {
     }, [carData])
 
      
-    const  item = carData.filter(data=> data.brandName.toLowerCase().match(searchValue.toLowerCase()) )
+    const  item = carData.filter(data=> data.brandName.toUpperCase().match(searchValue.toUpperCase()) )
     const lastPage = activePage * itemPerPage
     const firstPage = lastPage  - itemPerPage;
     const filterData = item.slice(firstPage, lastPage )
