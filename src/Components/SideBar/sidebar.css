@@ -1,0 +1,24 @@
+.sidelink{
+margin-top: 45px;
+}
+.btnStyle{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btnText{
+    padding-left: 10px;
+}
+@media screen and (max-width: 620px) {
+    .btnStyle{
+        display: block;
+        padding: 2px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+#formBasicFile{
+   background-color: #DEFFED;
+   color: #009444;
+}

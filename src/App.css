@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+#homeStyle{
+  background-color: #FFFF; 
+  padding: 0px 15px;
+   display: flex; 
+   justify-content: space-between
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#carInfo h6{
+  padding: 2px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#homeStyle{
+  padding: 15px 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#search{
+  margin: auto;
+   display:flex;
+   width:40%;
+   
 }
-
-.App-link {
-  color: #61dafb;
+ 
+#inp{
+    width: 70%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn{
+    background-color:#F91944;
+    color:white;
+    width: 30%;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
